@@ -37,12 +37,12 @@ console.log(getinput)
 
 function submit(){
     let count=document.getElementById("number_of_seats").value
+    let name=document.getElementById("user_name").value
     console.log(count)
-    if(count*100>getinput){
+    if(count*100>getinput ){
         alert("Insufficient Balance!")
-    }else{
+    }else if(count*100<=getinput){
         alert("Booking successful!")
     }
-    
 }
 

@@ -1,0 +1,29 @@
+body{
+    background-color: bisque;
+}
+#confirm{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+#user_name{
+font-size: 20px;
+border: 3px solid red;
+}
+#number_of_seats{
+font-size: 20px;
+border: 3px solid red;
+}
+#movie>div>img{
+    height: 350px;
+    width: 300px;
+}
+#movie>div>p{
+text-align: center;
+padding: 10px;
+}
+#movie>div{
+    background-color: white;
+    width: 300px;
+    margin-left: 700px;
+}
